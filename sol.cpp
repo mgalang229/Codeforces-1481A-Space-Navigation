@@ -28,7 +28,7 @@ int main() {
 				left++;
 			}
 		}
-		// check if the Right's and Left's can accommodate the point-x (px)
+		// check if the Right's and Left's can accommodate going to point-x (px)
 		bool vertical = ((py > 0 && up >= abs(py)) || (py < 0 && down >= abs(py)));
 		// check if the Up's and Down's can accommodate going to point-y (py)
 		bool horizontal = ((px > 0 && right >= abs(px)) || (px < 0 && left >= abs(px)));
